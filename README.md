@@ -1,10 +1,10 @@
-# Hey, I'm Rhythm
+# Hey, I am Rhythm
 
 Full-stack developer who believes in understanding things, not just using them.
 
 Building software by day, leveling up by night. Started with zero coding knowledge and 15 WPM typing speed. Now shipping production code and still climbing.
 
-### What I'm Working On
+### What I am Working On
 
 - Full-stack development with React, TypeScript, and Node.js
 - DSA practice for sharper problem-solving
@@ -12,9 +12,9 @@ Building software by day, leveling up by night. Started with zero coding knowled
 
 ### Philosophy
 
-> *If you can't explain it simply, you don't understand it yet.*
+> *If you can not explain it simply, you do not understand it yet.*
 
-I don't use AI to write my code. Every line is earned, every bug teaches something. Building toward a startup — can't do that if I don't actually know how things work.
+I do not use AI to write my code. Every line is earned, every bug teaches something. Building toward a startup — can not do that if I do not actually know how things work.
 
 ### Tech I Work With
 
@@ -24,19 +24,17 @@ I don't use AI to write my code. Every line is earned, every bug teaches somethi
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
 ### Stats
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=RhythmMittal19&show_icons=true&theme=tokyonight&count_private=true&hide_title=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RhythmMittal19&layout=compact&theme=tokyonight&hide=css" alt="Top Languages" height="165" />
-</p>
+[![GitHub Stats](https://github-readme-stats-rhythms.vercel.app/api?username=RhythmMittal19&show_icons=true&theme=tokyonight&count_private=true&hide_title=true)](https://github.com/RhythmMittal19)
 
-<p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RhythmMittal19&theme=tokyonight" alt="GitHub Streak" />
-</p>
+[![Top Languages](https://github-readme-stats-rhythms.vercel.app/api/top-langs/?username=RhythmMittal19&layout=compact&theme=tokyonight&hide=css)](https://github.com/RhythmMittal19)
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=RhythmMittal19&theme=tokyonight)](https://github.com/RhythmMittal19)
 
 ### Connect
 
