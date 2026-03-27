@@ -30,16 +30,11 @@ I do not use AI to write my code. Every line is earned, every bug teaches someth
 
 ### Stats
 
-<a href="https://github.com/RhythmMittal19">
-  <img src="https://github-readme-stats.vercel.app/api?username=RhythmMittal19&show_icons=true&theme=tokyonight&count_private=true&hide_title=true" alt="GitHub Stats" height="165" />
-</a>
-<a href="https://github.com/RhythmMittal19">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RhythmMittal19&layout=compact&theme=tokyonight&hide=css" alt="Top Languages" height="165" />
-</a>
+![GitHub Stats](stats.svg)
 
-<a href="https://github.com/RhythmMittal19">
-  <img src="https://streak-stats.demolab.com/?user=RhythmMittal19&theme=tokyonight" alt="GitHub Streak" />
-</a>
+![Languages](languages.svg)
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=RhythmMittal19&theme=tokyonight)](https://github.com/RhythmMittal19)
 
 ### Connect
 
