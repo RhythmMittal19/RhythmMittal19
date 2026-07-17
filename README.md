@@ -8,10 +8,11 @@ Building software by day, leveling up by night. Started with zero coding knowled
 
 Full-Stack Developer Intern at **Tglobal** — production code across six live platforms:
 
-- **Vendor dashboard (MERN)** — owned end-to-end, 40+ commits; fixed real production bugs: stock-count corruption, IST timezone drift in stats, a React hooks-order crash; shipped a returns/refunds flow with money-math validation
+- **Vendor dashboard (MERN)** — owned end-to-end, ~140 commits; fixed real production bugs: stock-count corruption, IST timezone drift in stats, a React hooks-order crash; shipped a returns/refunds flow with money-math validation
 - **WhatsApp shopkeeper assistant** — Fastify + Prisma + PostgreSQL + Redis + BullMQ + Docker, 18 sprints from scaffold to production-ready: Zod validation everywhere, GST invoicing, NextAuth, Vitest CI
 - **Marketing site revamp** — Next.js 16 + React 19 + TypeScript, GSAP scroll work, cut asset weight 1.1 MB → 468 KB, full SEO (sitemap, OG images, JSON-LD)
-- **US healthcare SaaS frontend** — React + TanStack Query + Radix: notifications system with a 45-day follow-up cron and role-gated flags
+- **US healthcare SaaS frontend** — React + TanStack Query + Radix: notifications system with a client-side 45-day follow-up scheduler and permission-gated delivery
+- **Sifinn** — FP&A analytics platform for Indian SaaS startups, live at [sifinn.vercel.app](https://sifinn.vercel.app): Next.js 16 + Python/DuckDB core, in-browser import engine validated to-the-rupee against real partner workbooks
 
 That code is private (employer), so the repos here are my own builds — where I prove I understand what I ship.
 
@@ -19,7 +20,7 @@ That code is private (employer), so the repos here are my own builds — where I
 
 - Full-stack development with React, TypeScript, and Node.js
 - DSA practice for sharper problem-solving
-- [git-gud](https://github.com/RhythmMittal19/git-gud) — my open-source learning roadmap with 25+ hand-built projects
+- [git-gud](https://github.com/RhythmMittal19/git-gud) — my learning roadmap: 26 vanilla-JS projects where I wrote every line of JS logic myself, plus DSA tooling in C++23
 
 ### Philosophy
 
