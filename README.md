@@ -1,64 +1,52 @@
 # Hey, I am Rhythm
 
-Full-stack developer who believes in understanding things, not just using them.
+Full-stack developer (MERN + Fastify) at Tglobal, New Delhi. I build and debug production systems for real businesses: inventory, billing, healthcare claims, finance analytics. Looking for full-time Node/React roles where I can own backend problems.
 
-Building software by day, leveling up by night. Started with zero coding knowledge and 15 WPM typing speed. Now shipping production code and still climbing.
+**Latest shipped: [Sifinn](https://sifinn.vercel.app) — a live FP&A platform for Indian SaaS startups.**
 
-### What I Ship at Work
+> **understanding > memorizing**
 
-Full-Stack Developer Intern at **Tglobal** — production code across six live platforms:
+[Email](mailto:rhythmmittal19@gmail.com) · [LinkedIn](https://www.linkedin.com/in/rhythmmittal19/) · [Portfolio](https://rhythmmittal19.github.io)
 
-- **Vendor dashboard (MERN)** — owned end-to-end, ~140 commits; fixed real production bugs: stock-count corruption, IST timezone drift in stats, a React hooks-order crash; shipped a returns/refunds flow with money-math validation
-- **WhatsApp shopkeeper assistant** — Fastify + Prisma + PostgreSQL + Redis + BullMQ + Docker, 18 sprints from scaffold to production-ready: Zod validation everywhere, GST invoicing, NextAuth, Vitest CI
-- **Marketing site revamp** — Next.js 16 + React 19 + TypeScript, GSAP scroll work, cut asset weight 1.1 MB → 468 KB, full SEO (sitemap, OG images, JSON-LD)
-- **US healthcare SaaS frontend** — React + TanStack Query + Radix: notifications system with a client-side 45-day follow-up scheduler and permission-gated delivery
-- **Sifinn** — FP&A analytics platform for Indian SaaS startups, live at [sifinn.vercel.app](https://sifinn.vercel.app): Next.js 16 + Python/DuckDB core, in-browser import engine validated to-the-rupee against real partner workbooks
+## What I ship at work
 
-That code is private (employer), so the repos here are my own builds — where I prove I understand what I ship.
+- Vendor stock counts were silently corrupting to zero on size-only sales. Traced it to a projection-blind recompute and fixed it for good. ~140 commits on that production MERN dashboard, backed by ~198 server tests.
+- Every dashboard KPI showed ₹0 despite 27 real bills in the system. Root cause: IST timezone math rolled "today" over at 5:30 AM, plus a missing import that 500ed the stats route. Fixed with timezone-aware aggregation.
+- Built the GST returns/credit-note flow: server-authoritative refund math, proportional discount scaling, atomic transactions. The server never trusts client money math.
+- WhatsApp shopkeeper assistant: Fastify + Prisma + PostgreSQL + Redis + BullMQ behind a webhook-to-queue pipeline. Hinglish rule-based NLU with 62 tests, GST invoice PDFs, 4-role RBAC.
+- Cut marketing-site assets from 1.1 MB to 468 KB with an SVGO pipeline. Reversed a naive code-splitting strategy that caused 50-200ms hydration hiccups mid-scroll.
+- Healthcare claims SaaS frontend (~61k LOC): notifications service wired into 49 mutation hooks, ~120-column bulk-claim template validation (CPT, NPI, ICD-10).
 
-### What I am Working On
+Employer code is private. Sifinn is the part you can click. Happy to whiteboard the rest.
 
-- Full-stack development with React, TypeScript, and Node.js
-- DSA practice for sharper problem-solving
-- [git-gud](https://github.com/RhythmMittal19/git-gud) — my learning roadmap: 26 vanilla-JS projects where I wrote every line of JS logic myself, plus DSA tooling in C++23
+AI tools are part of my daily workflow; the architecture, the code review, and every fix above are mine. My commits carry Co-Authored-By trailers because I disclose it.
 
-### Philosophy
+## Things you can actually run
 
-> *If you can not explain it simply, you do not understand it yet.*
+- 🟢 [Sifinn](https://sifinn.vercel.app) — live FP&A platform. Next.js 16 + Python/DuckDB core, import engine validated to-the-rupee against real partner workbooks.
+- ⌨️ [Task-Tracker](https://github.com/RhythmMittal19/Task-Tracker) — task manager CLI in pure Node.js. Zero dependencies on purpose.
+- 📊 [Github-User-Activity](https://github.com/RhythmMittal19/Github-User-Activity) — GitHub activity from the terminal. Plain fetch, no libraries.
+- 🧱 [git-gud](https://github.com/RhythmMittal19/git-gud) — 26 vanilla-JS projects, zero frameworks, all logic hand-written. Built to understand, not to ship fast.
 
-AI is part of my daily toolkit — for scaffolding, review, and moving faster. The logic, the architecture, how everything is wired: that part is mine. I do not ship a line I can not explain back to a wall. Building toward a startup — can not do that without actually knowing how things work.
+## Now
 
-### Tech I Work With
+- Rebuilding [my portfolio](https://github.com/RhythmMittal19/rhythmmittal19.github.io) in React. Watch the commits.
+- Going deeper on React internals. Notes land in project READMEs as I go.
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Fastify](https://img.shields.io/badge/-Fastify-000000?style=flat&logo=fastify&logoColor=white)
-![Express](https://img.shields.io/badge/-Express-000000?style=flat&logo=express&logoColor=white)
-![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
+## Stack
 
-### Stats
+Daily: JavaScript/TypeScript, Node.js, Fastify, Express, React, Next.js, Prisma, PostgreSQL, MongoDB, Redis. Also at home with: Python, Docker, Git, Linux.
 
-![GitHub Stats](stats.svg)
+## Stats
 
-![Languages](languages.svg)
+Both cards below are generated daily by my own GitHub Actions pipeline in this repo. No third-party stats services.
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=RhythmMittal19&theme=tokyonight)](https://github.com/RhythmMittal19)
-
-### Connect
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rhythmmittal19/)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat&logo=github&logoColor=white)](https://rhythmmittal19.github.io)
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:rhythmmittal19@gmail.com)
+<table>
+  <tr>
+    <td><img src="stats.svg" alt="GitHub stats, self-generated daily" /></td>
+    <td><img src="languages.svg" alt="Language breakdown, self-generated daily" /></td>
+  </tr>
+</table>
 
 ---
 
